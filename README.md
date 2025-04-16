@@ -1,7 +1,61 @@
-# MUTHTHAMIZH---Tamil-Chatbot
-MUTHTHAMIZH is a Bilingual Language Chatbot where the Tamil-English and English-Tamil Translations can be done. Additionally, Thirukkural Search, PDF Word Search, and PDF Tamil Summarization can be done in this single Chatbot. The “MUTHTHAMIZH” is a Chatbot which does the following services namely translates the English words to Tamil words and vice-versa, answers to the Questions related to the ancient Literatures, Epics, Stories, Poetries, Thirukkural and translates the Tamil words in those Literatures and provides its equivalent meanings. The Chatbot also does the Tamil Text Summarisation and Word Search in a Tamil Document is given to the Chatbot. The User Interface of the Chatbot has the document uploading option, microphone and output voice over feature which is enhanced with the elements and designs related to Tamil Literature. 
-The Technical Domains involved in this project includes NLP, AI, ML, Web Development.
+# முத்தமிழ் (Muththamizh) Chatbot
 
-![image](https://github.com/user-attachments/assets/2b3d804f-eac0-469b-a1de-87a560ded62b)
+A comprehensive Tamil language chatbot that provides translation, literature queries, text summarization, and document search capabilities.
 
-![image](https://github.com/user-attachments/assets/57c81571-9c14-4c09-bfd1-f168c0a1c4df)
+## Features
+
+- English-Tamil and Tamil-English translation
+- Tamil literature information and queries
+- Tamil text summarization
+- Word search in Tamil documents
+- Voice output support
+- Document upload and processing (PDF/DOCX)
+- Tamil-themed user interface
+
+## Installation
+
+1. Create a virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the Streamlit application:
+```bash
+streamlit run thamizhi.py
+```
+
+The application will open in your default web browser with the following features:
+
+1. **Translation**
+   - Switch between English-Tamil and Tamil-English
+   - Text-to-speech support for translations
+
+2. **Literature Query**
+   - Information about Tamil literature, epics, and Thirukkural
+   - Explanations of Tamil terms and concepts
+
+3. **Text Summarization**
+   - Summarize Tamil text with adjustable summary length
+   - Preserves key information while reducing content
+
+4. **Word Search**
+   - Upload PDF or DOCX documents
+   - Search for specific Tamil words
+   - View results in context
+
+## Requirements
+
+- Python 3.7+
+- See requirements.txt for complete list of dependencies
+
+## Note
+
+The literature database included is a sample. For a production environment, you should expand the database with more comprehensive content from Tamil literature sources.
