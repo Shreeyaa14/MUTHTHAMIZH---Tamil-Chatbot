@@ -62,6 +62,7 @@ The application will open in your default web browser with the following feature
 
 The literature database included is a sample. For a production environment, you should expand the database with more comprehensive content from Tamil literature sources.
 
+## Output
 
 ![image](https://github.com/user-attachments/assets/e6067f60-9b47-4ea2-8512-c0badc554c0f)
 
